@@ -1320,61 +1320,63 @@ a.ui-button:active,
 	
 * {
     box-sizing: border-box;
-    background-color: #7BCBF2;
+    background-color: #fff;
 	font-family: Helvetica;
   }
     
     body > *, main > * {
-      outline: 1px #ccc solid;} 
+      outline: 1px #fff solid;} 
     * { 
       padding: 10px;
     } 
- nav {background-color: #EDEBEB;}
+ nav {background-color: #fff;}
  header, 
  footer { 
   text-align: center; 
-  background: #7BCBF2; 
+  background: #fff; 
   color: white;
 } 
 main {
-  background-color: #EDEBEB;
+  background-color: #fff;
 }
 button {
   width: 100%;
 }
     body, section {
-      background-color: white; 
-      margin: 5px;
+      	background-color: white; 
+      	margin: 5px;
     }  
     img {
-      background-color: #EDEBEB;
-      padding: 0;
+      	background-color: #EDEBEB;
+      	padding: 0;
     } 
     h1 {
-      margin: 0;
+      	margin: 0;
     } 
     nav {
-      padding: 5px 2px;
+      	padding: 5px 2px;
     }
     nav a {
-      margin: 0 5px; 
-      background-color: white; 
-      color: #17A5E0; 
-      text-align: center; 
-      text-decoration: none; 
-      border: 1px solid #D4D4D4;
+      	margin: 0 5px; 
+      	background-color: #7BCBF2; 
+      	color: #fff; 
+      	text-align: center; 
+      	text-decoration: none; 
+      	border: 1px solid #fff;
+		border-radius: 10px;
     }
 
-      section > button,
-      section > a {
-      background: #7BCBF2;
-      border: 1px solid #EDEBEB;
-      text-decoration: none;
-      color: #fff;
-      font-size: 0.75rem;
-      text-align: center;
-      display:inline-block;
-      box-sizing: border-box;
+      	section > button,
+      	section > a {
+      	background: #7BCBF2;
+      	border: 1px solid #fff;
+      	text-decoration: none;
+      	color: #fff;
+      	font-size: 0.75rem;
+      	text-align: center;
+      	display:inline-block;
+      	box-sizing: border-box;
+		border-radius: 10px;
     }
 /* CONNIE'S RELEVANT CSS */
       nav {
@@ -1383,7 +1385,8 @@ button {
       section > img, 
       section > button,
       section > a {
-        width: 100%; 
+        width: 100%;
+		border-radius: 10px;
       }
       nav a {
         flex: 1; 
@@ -1411,6 +1414,7 @@ button {
       margin: 10px;
     }
   }
+
 /* CONNIE'S EXTRA TEXT CSS */
 
 .BLUEbuttonText {
@@ -1428,7 +1432,7 @@ button {
 
 }
 .thinText {
-    color: #FFFFFF;
+    color: #7BCBF2;
 	font-family: 'Outfit'
 }
 .boldText {
@@ -1437,7 +1441,8 @@ button {
 }
 
 h1 {
+	color: #17A5E0;
   	font-family: 'Space Grotesk';
-	font-weight: 500;
+	font-weight: 600;
 	font-size: 220%
 }
