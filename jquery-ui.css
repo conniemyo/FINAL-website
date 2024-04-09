@@ -1366,8 +1366,8 @@ button {
 		border-radius: 10px;
     }
 
-      	section > button,
-      	section > a {
+    section > button,
+    section > a {
       	background: #7BCBF2;
       	border: 1px solid #fff;
       	text-decoration: none;
@@ -1378,39 +1378,40 @@ button {
       	box-sizing: border-box;
 		border-radius: 10px;
     }
+
 /* CONNIE'S RELEVANT CSS */
-      nav {
+   nav {
         display: flex;
       }
-      section > img, 
-      section > button,
-      section > a {
-        width: 100%;
+   section > img, 
+   section > button,
+   section > a {
+    	width: 100%;
 		border-radius: 10px;
       }
-      nav a {
-        flex: 1; 
+   nav a {
+		flex: 1; 
       }
 
   @media screen and (min-width: 40em) {
-    body, 
-    main, 
-    section {
+   body, 
+   main, 
+   section {
       display: flex;
       flex-direction: column;
     }
 
-    main > section, 
-    main > section > p {
+   main > section, 
+   main > section > p {
       flex: 1;
     }
-    header, nav {
+   header, nav {
       order: -1;
     }
-    main {
+   main {
       flex-direction: row;
     }
-    main > section {
+   main > section {
       margin: 10px;
     }
   }
@@ -1445,4 +1446,53 @@ h1 {
   	font-family: 'Space Grotesk';
 	font-weight: 600;
 	font-size: 220%
+}
+h2 {
+	color: #17A5E0;
+  	font-family: 'Space Grotesk';
+	font-weight: 500;
+	font-size: 220%
+}
+.blogtext {
+	color: black;
+  	font-family: 'Outfit';
+	font-weight: 300;
+	font-size: 120%
+}
+.pageTitle {
+	text-align: center;
+	color: #7BCBF2;
+	font-size: 170%
+}
+/* CONNIE'S "BLOG" CSS */
+
+.secret {visibility: hidden; padding-top: 0; padding-bottom: 0;}
+img {width: 100%;}
+
+
+.code head {
+	display: block;
+	}
+.code head :not(style) {
+	display: none;	
+
+}
+.item {
+  	display: flex;
+  	flex-wrap: wrap;
+}
+.blogs {
+    display: flex;
+    flex-direction: column;
+}
+
+.smallimg {
+	max-height: 70%;
+	max-width: 70%
+	
+}
+.grids {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+  	grid-template-rows: repeat(3);
 }
