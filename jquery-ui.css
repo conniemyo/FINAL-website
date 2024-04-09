@@ -1329,9 +1329,9 @@ a.ui-button:active,
     * { 
       padding: 10px;
     } 
- nav {background-color: #fff;}
- header, 
- footer { 
+nav {background-color: #fff;}
+header, 
+footer { 
   text-align: center; 
   background: #fff; 
   color: white;
@@ -1342,21 +1342,21 @@ main {
 button {
   width: 100%;
 }
-    body, section {
+	body, section {
       	background-color: white; 
       	margin: 5px;
     }  
-    img {
+	img {
       	background-color: #EDEBEB;
       	padding: 0;
     } 
-    h1 {
+	h1 {
       	margin: 0;
     } 
-    nav {
+	nav {
       	padding: 5px 2px;
     }
-    nav a {
+	nav a {
       	margin: 0 5px; 
       	background-color: #7BCBF2; 
       	color: #fff; 
@@ -1365,9 +1365,8 @@ button {
       	border: 1px solid #fff;
 		border-radius: 10px;
     }
-
-    section > button,
-    section > a {
+	section > button,
+	section > a {
       	background: #7BCBF2;
       	border: 1px solid #fff;
       	text-decoration: none;
