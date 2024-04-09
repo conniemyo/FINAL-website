@@ -1499,3 +1499,12 @@ img {width: 100%;}
 	font-size: 100%
 
 }
+	  
+}
+
+.productText {
+	color: black;
+  	font-family: 'Outfit';
+	font-weight: 400;
+	font-size: 120%
+}
