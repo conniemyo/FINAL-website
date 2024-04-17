@@ -1321,7 +1321,7 @@ a.ui-button:active,
 * {
     box-sizing: border-box;
     background-color: #fff;
-	font-family: Helvetica;
+	font-family: 'Outfit';
   }
     
     body > *, main > * {
@@ -1431,7 +1431,8 @@ button {
 }
 .thinText {
     color: #7BCBF2;
-	font-family: 'Outfit'
+	font-family: 'Outfit';
+	font-size: 110%
 }
 .boldText {
     color: #FFFFFF;
@@ -1463,9 +1464,6 @@ h2 {
 }
 /* CONNIE'S "BLOG" CSS */
 
-.secret {visibility: hidden; padding-top: 0; padding-bottom: 0;}
-img {width: 100%;}
-
 
 .code head {
 	display: block;
@@ -1480,11 +1478,13 @@ img {width: 100%;}
 }
 .blogs {
     display: flex;
-    flex-direction: column;
+    flex-direction: column
 }
 .smallimg {
-	max-height: 70%;
-	max-width: 70%
+	max-height: 33%;
+	max-width: 33%;
+	border: 15px solid #fff;
+	border-radius: 20px
 	
 }
 .grids {
@@ -1507,4 +1507,40 @@ img {width: 100%;}
   	font-family: 'Outfit';
 	font-weight: 400;
 	font-size: 120%
+}
+
+.descrText {
+	color: black;
+  	font-family: 'Outfit';
+	font-weight: 200;
+	font-size: 100%
+}
+.borderimg {
+	border: 15px solid #fff;
+	border-radius: 20px
+	
+}
+.contactText {
+	text-align: center;
+	line-height: 1.8em;
+	font-size: 175%
+}
+.fa {
+	align-self: center;
+ 	padding: 20px;
+  	font-size: 50px;
+  	width: 55px;
+  	text-align: center;
+  	text-decoration: none;
+  	margin: 5px 2px;
+  	border-radius: 70%;
+	background: #7BCBF2;
+  	color: white;
+}
+
+.icons {
+	display: grid;
+	align-self: center;
+	grid-template-columns: repeat(3, 5em);
+  	grid-template-rows: repeat(3);
 }
